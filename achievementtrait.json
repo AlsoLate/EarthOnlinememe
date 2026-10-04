@@ -1,0 +1,101 @@
+{
+  "traits": [
+    {
+      "id": "adhd",
+      "title": "ADHD",
+      "desc": "随机移动，有机会中途突然弹出小游戏",
+      "prob": 0.15,
+      "type": "neutral"
+    },
+    {
+      "id": "asd",
+      "title": "ASD",
+      "desc": "不提供原装社交潜规则理解系统，有高机会在专业副本如「航空」,「巴士」等等提前获得信息",
+      "prob": 0.15,
+      "type": "good"
+    },
+    {
+      "id": "low_res",
+      "title": "次级显示",
+      "desc": "更易降低分辨率",
+      "prob": 0.19,
+      "type": "neutral"
+    },
+    {
+      "id": "asian_parent",
+      "title": "亚洲家长",
+      "desc": "地狱难度",
+      "prob": 0.10,
+      "type": "neutral"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "school_run",
+      "title": "「放学快线」",
+      "desc": "「放学即弹射开溜，极速归家」",
+      "prob": 0.13,
+      "color": "#ffea00"
+    },
+    {
+      "id": "undead",
+      "title": "「不死之身」",
+      "desc": "「重伤/致命意外中生还」",
+      "prob": 0.03,
+      "color": "#ffffff"
+    },
+    {
+      "id": "plane_fan",
+      "title": "「哪里有飞机」",
+      "desc": "「成为飞机迷」",
+      "prob": 0.08,
+      "color": "#00b0ff"
+    },
+    {
+      "id": "special_plane",
+      "title": "「特别飞机 200 OK」",
+      "desc": "「成功影到一架特别飞机」",
+      "prob": 0.01,
+      "color": "#ffffff",
+      "conditional_on": "plane_fan",
+      "conditional_prob": 0.85
+    },
+    {
+      "id": "run_in_time",
+      "title": "「赶得上」",
+      "desc": "「在迟到前3秒内入校」",
+      "prob": 0.39,
+      "color": "#ffffff"
+    },
+    {
+      "id": "typhoon",
+      "title": "「停课」",
+      "desc": "「感谢八号风球和红雨」",
+      "prob": 0.99,
+      "color": "#ffffff"
+    },
+    {
+      "id": "red_van",
+      "title": "「乘坐路上高铁」",
+      "desc": "「搭过红色小巴」",
+      "prob": 0.35,
+      "color": "#ffffff"
+    },
+    {
+      "id": "go_out",
+      "title": "「自主外出」",
+      "desc": "「可以自己一个人出门」",
+      "prob": 0.70,
+      "color": "#ffffff"
+    },
+    {
+      "id": "night_out",
+      "title": "「自主夜出」",
+      "desc": "「可以自己一个人晚上出门」",
+      "prob": 0.00,
+      "color": "#ffffff",
+      "conditional_on": "go_out",
+      "conditional_prob": 0.80
+    }
+  ]
+}

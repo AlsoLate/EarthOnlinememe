@@ -1,0 +1,261 @@
+{
+  "categories": [
+    {
+      "id": "account",
+      "label": "账号及角色",
+      "icon": "user",
+      "showOnlyIn": [
+        "character-loading-screen",
+        "login-character-screen"
+      ],
+      "items": [
+        {
+          "id": "account_password",
+          "label": "账号密码",
+          "inputType": "button",
+          "buttonLabel": "更改",
+          "toastTitle": "系统提示",
+          "toastMsg": "密码为DNA加密，无法更改",
+          "locked": true
+        },
+        {
+          "id": "char_appearance",
+          "label": "角色外观",
+          "inputType": "button",
+          "buttonLabel": "更改",
+          "toastTitle": "系统提示",
+          "toastMsg": "随机生成，无法更改",
+          "locked": true
+        },
+        {
+          "id": "delete_account",
+          "label": "删除账号",
+          "inputType": "self",
+          "toastTitle": "系统提示",
+          "toastMsg": "无法删除账号",
+          "locked": true,
+          "danger": true
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "label": "社交",
+      "icon": "message-square",
+      "items": [
+        {
+          "id": "chat_permission",
+          "label": "谁可以和我聊天",
+          "inputType": "dropdown",
+          "options": [
+            "任何人"
+          ],
+          "value": "任何人",
+          "toastTitle": "系统提示",
+          "toastMsg": "全局游戏设置，无法更改",
+          "locked": true,
+          "canOpen": false
+        },
+        {
+          "id": "friend_invite",
+          "label": "谁可以发送好友邀请给我",
+          "inputType": "dropdown",
+          "options": [
+            "任何人"
+          ],
+          "value": "任何人",
+          "toastTitle": "系统提示",
+          "toastMsg": "全局游戏设置，无法更改",
+          "locked": true,
+          "canOpen": false
+        }
+      ]
+    },
+    {
+      "id": "control",
+      "label": "控制",
+      "icon": "gamepad-2",
+      "items": [
+        {
+          "id": "auto_balance",
+          "label": "自动平衡",
+          "inputType": "toggle",
+          "value": true,
+          "toastTitle": "系统提示",
+          "toastMsg": "角色默认设置，无法关闭",
+          "locked": true
+        },
+        {
+          "id": "auto_limit_power",
+          "label": "自动限制力量",
+          "inputType": "toggle",
+          "value": true,
+          "toastTitle": "系统提示",
+          "toastMsg": "角色默认安全设置，无法手动关闭",
+          "locked": true
+        },
+        {
+          "id": "auto_stabilize",
+          "label": "自动镜头防震",
+          "inputType": "toggle",
+          "value": true,
+          "toastTitle": "系统提示",
+          "toastMsg": "角色默认设置，无法关闭",
+          "locked": true
+        },
+        {
+          "id": "keybind",
+          "label": "键位",
+          "inputType": "button",
+          "buttonLabel": "更改",
+          "toastTitle": "系统提示",
+          "toastMsg": "脑部自动设置，不可手动更改",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "display",
+      "label": "画面",
+      "icon": "tv-minimal",
+      "items": [
+        {
+          "id": "view_mode",
+          "label": "视角",
+          "inputType": "segmented",
+          "options": [
+            "第一人称",
+            "追踪",
+            "跟随"
+          ],
+          "value": "第一人称",
+          "toastTitle": "系统提示",
+          "toastMsg": "游戏系统设置，不可手动更改",
+          "locked": true
+        },
+        {
+          "id": "smart_focus",
+          "label": "智能对焦",
+          "inputType": "toggle",
+          "value": true,
+          "toastTitle": "系统提示",
+          "toastMsg": "眼部原厂设置，无法关闭",
+          "locked": true
+        },
+        {
+          "id": "auto_brightness",
+          "label": "自动亮度",
+          "inputType": "toggle",
+          "value": true,
+          "toastTitle": "系统提示",
+          "toastMsg": "眼部原厂设置，无法关闭",
+          "locked": true
+        },
+        {
+          "id": "render_distance",
+          "label": "渲染距离",
+          "inputType": "slider",
+          "min": 0,
+          "max": 100,
+          "value": 100,
+          "toastTitle": "系统提示",
+          "toastMsg": "不可改，由天气决定",
+          "locked": true
+        },
+        {
+          "id": "resolution",
+          "label": "分辨率",
+          "inputType": "dropdown",
+          "options": [
+            "原生分辨率"
+          ],
+          "value": "原生分辨率",
+          "toastTitle": "系统提示",
+          "toastMsg": "受角色属性影响，无法更改",
+          "locked": true,
+          "canOpen": false
+        },
+        {
+          "id": "fov",
+          "label": "FOV",
+          "inputType": "slider",
+          "min": 0,
+          "max": 100,
+          "value": 100,
+          "toastTitle": "系统提示",
+          "toastMsg": "受角色属性影响，无法更改",
+          "locked": true
+        },
+        {
+          "id": "rtx",
+          "label": "RTX 光线追踪",
+          "inputType": "toggle",
+          "value": true,
+          "toastTitle": "系统提示",
+          "toastMsg": "游戏物理设置，无法关闭",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "label": "声音及语言",
+      "icon": "audio-lines",
+      "items": [
+        {
+          "id": "voice_volume",
+          "label": "人声",
+          "inputType": "slider",
+          "min": 0,
+          "max": 100,
+          "value": 100,
+          "toastTitle": "系统提示",
+          "toastMsg": "受角色属性影响，无法更改",
+          "locked": true
+        },
+        {
+          "id": "ambient_volume",
+          "label": "环境声",
+          "inputType": "slider",
+          "min": 0,
+          "max": 100,
+          "value": 100,
+          "toastTitle": "系统提示",
+          "toastMsg": "受角色属性影响，无法更改",
+          "locked": true
+        },
+        {
+          "id": "smart_filter",
+          "label": "智能过滤及处理",
+          "inputType": "toggle",
+          "value": true,
+          "toastTitle": "系统提示",
+          "toastMsg": "角色原厂功能，无法更改",
+          "locked": true
+        },
+        {
+          "id": "language",
+          "label": "语言",
+          "inputType": "button",
+          "buttonLabel": "编辑",
+          "toastTitle": "系统提示",
+          "toastMsg": "地区锁定",
+          "locked": true
+        },
+        {
+          "id": "voice_input",
+          "label": "语音输入设备",
+          "inputType": "dropdown",
+          "options": [
+            "Default(口部)","口部"
+          ],
+          "value": "Default(口部)",
+          "toastTitle": null,
+          "toastMsg": null,
+          "locked": false,
+          "canOpen": true
+        }
+      ]
+    }
+  ]
+}

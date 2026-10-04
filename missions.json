@@ -1,0 +1,105 @@
+{
+  "missions": [
+    {
+      "id": "dating",
+      "name": "谈恋爱",
+      "desc": "找一位异性朋友",
+      "reward": "社交能力+9",
+      "max_attempts": 4,
+      "random_done_min": 0,
+      "random_done_max": 2,
+      "in_progress_prob": 0.20,
+      "force_zero_condition": "love === 'A0'",
+      "warning_condition": "love === 'A0' || (love.startsWith('A') && parseInt(love.slice(1)) >= 10)",
+      "warning_text": "⚠角色可能没有足够社交能力，社交能量，经济能力或欲望"
+    },
+    {
+      "id": "f1_school",
+      "name": "一级方程式放学",
+      "desc": "放学到校门破1:00",
+      "reward": "体质+5 反应+7",
+      "max_attempts": 5,
+      "random_done_min": 0,
+      "random_done_max": 5,
+      "force_max_done_condition": "achievements.includes('school_run')",
+      "in_progress_prob": 0.33,
+      "warning_condition": "false",
+      "warning_text": ""
+    },
+    {
+      "id": "run_10k",
+      "name": "10km",
+      "desc": "连续跑10km",
+      "reward": "体质+8",
+      "max_attempts": 6,
+      "random_done_min": 0,
+      "random_done_max": 6,
+      "in_progress_prob": 0.30,
+      "warning_condition": "constitution < 60",
+      "warning_text": "⚠量力而为"
+    },
+    {
+      "id": "bus_guide",
+      "name": "路线指路",
+      "desc": "在巴士司机迷路时指路",
+      "reward": "空间感+8 空间记忆 +25",
+      "max_attempts": 3,
+      "random_done_min": 0,
+      "random_done_max": 3,
+      "in_progress_prob": 0.05,
+      "warning_condition": "false",
+      "warning_text": ""
+    },
+    {
+      "id": "overtaker",
+      "name": "超车达人",
+      "desc": "连续超越60人",
+      "reward": "移动+5",
+      "max_attempts": 15,
+      "random_done_min": 0,
+      "random_done_max": 15,
+      "force_max_done_condition": "achievements.includes('school_run')",
+      "in_progress_prob": 0.05,
+      "force_zero_condition": "",
+      "warning_condition": "",
+      "warning_text": ""
+    },
+    {
+  "id": "free_labor",
+  "name": "教程：免费劳工",
+  "desc": "为学校无偿收集路人的HKD,并向路人送贴纸",
+  "reward": "-",
+  "max_attempts": 3,
+  "random_done_min": 0,
+  "random_done_max": 2,
+  "in_progress_prob": 0.5,
+  "warning_condition": "",
+  "warning_text": ""
+},
+{
+  "id": "learn_chinese_zip",
+  "name": "教程：学习中文.zip",
+  "desc": "学习随机压缩文本解压技能",
+  "reward": "不理解+1",
+  "max_attempts": 1,
+  "random_done_min": 0,
+  "random_done_max": 0,
+  "in_progress_prob": 0.999,
+  "warning_condition": "",
+  "warning_text": ""
+},
+    {
+      "id": "chinese_grade_good",
+      "name": "放弃逻辑",
+      "desc": "在中文科考试取得 ≥70%",
+      "reward": "情感能力+1 逻辑能力-7",
+      "max_attempts": 3,
+      "random_done_min": 0,
+      "random_done_max": 3,
+      "in_progress_prob": 0.17,
+      "force_zero_condition": "",
+      "warning_condition": "",
+      "warning_text": ""
+    }
+  ]
+}

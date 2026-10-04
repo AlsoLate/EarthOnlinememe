@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "iq_boost",
+      "name": "增加智商发展速度",
+      "desc": "购买后会使脑部更快发展",
+      "price": 31.415926,
+      "currency": "运气币",
+      "icon": "mdi:brain",
+      "iconColor": "#00a8ff"
+    },
+    {
+      "id": "muscle_boost",
+      "name": "增加肌肉发展速度",
+      "desc": "购买后会使肌肉更快发展",
+      "price": 30,
+      "currency": "运气币",
+      "icon": "mdi:dumbbell",
+      "iconColor": "#ff6b35"
+    },
+    {
+      "id": "antivirus",
+      "name": "防毒",
+      "desc": "购买后会减少随机性病毒感染机会",
+      "price": 40,
+      "currency": "运气币",
+      "icon": "bxs:virus-block",
+      "iconColor": "#03fca5"
+    },
+    {
+      "id": "dasher",
+      "name": "速度爆发力",
+      "desc": "购买后会增强角色速度爆发力",
+      "price": 35,
+      "currency": "运气币",
+      "icon": "material-symbols:sprint",
+      "iconColor": "#b5ff08"
+    },
+    {
+      "id": "attraction_boost",
+      "name": "增加异性缘",
+      "desc": "购买后更易遇上异性",
+      "price": 1549,
+      "currency": "运气币",
+      "icon": "mdi:heart",
+      "iconColor": "#ff4757"
+    },
+    {
+      "id": "extend_life",
+      "name": "增加最大游玩年数",
+      "desc": "购买后可以玩更耐",
+      "price": 2000,
+      "currency": "运气币",
+      "icon": "material-symbols:heart-plus",
+      "iconColor": "#ff0a0a"
+    },
+    {
+      "id": "betterlogic",
+      "name": "逻辑思维",
+      "desc": "购买后会更清醒",
+      "price": 50,
+      "currency": "运气币",
+      "icon": "ix:logic-diagram",
+      "iconColor": "#1af053"
+    },
+    {
+      "id": "li_field_reduce",
+      "name": "减弱李氏力场",
+      "desc": "支持减弱李氏力场，我要停课！",
+      "price": 8,
+      "currency": "运气币",
+      "icon": "mingcute:typhoon-fill",
+      "iconColor": "#baf8ff"
+    },
+    {
+      "id": "better_network",
+      "name": "稳定连接",
+      "desc": "加强角色的连接，减少断线",
+      "price": 80,
+      "currency": "运气币",
+      "icon": "streamline-ultimate:user-network-bold",
+      "iconColor": "#80ffff"
+    },
+    {
+      "id": "public_housing_express",
+      "name": "公屋轮候加速",
+      "desc": "轮候公屋更快",
+      "price": 100,
+      "currency": "运气币",
+      "icon": "material-symbols:apartment",
+      "iconColor": "#a5bf69"
+    }
+  ]
+}

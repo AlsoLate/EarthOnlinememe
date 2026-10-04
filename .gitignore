@@ -1,0 +1,4 @@
+# 本地工具 / 工作目录，不纳入版本控制
+convert_zh.py
+.workbuddy-ai/
+*.py
